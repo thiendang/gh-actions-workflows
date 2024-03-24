@@ -1,5 +1,19 @@
 # gh-actions-workflows
 
+## What you'll learn
+
+- Learn about writing serialized data in the YAML format.
+- Learn about all the GitHub Actions concepts (Workflows, Steps, Jobs, Actions, etc..)
+- Discover everything you can do in a GitHub workflow (events, schedules, filtering, environment variables, context, encryption, matrix and more)
+- Learn how docker can be used in a GitHub workflow
+- Create a real-life CI/CD workflow for code testing, formatting, versioning and more.
+- Use caching in workflows for an improved performance.
+- Learn about uploading artifacts in workflows.
+- Learn about how to create your own custom GitHub Actions using Javascript or Docker
+- Create an action for opening GitHub issues using JavaScript.
+- Create an action for sending slack messages using PHP.
+- Learn how to publish GitHub actions in the GitHub marketplace.
+
 ## Requirements
 
 - You should have basic GitHub knowledge
@@ -34,17 +48,3 @@ In section 5 we are going to discuss using docker in GitHub Actions. We are goin
 During the course we will use some actions that are available in the marketplace. But in this section we are going to learn how to create our own actions. Actions can be created using JavaScript or using Docker. In this section we are going to learn about both ways and then we will create a JavaScript action that opens GitHub issues and a docker action that sends a slack message which we will write using PHP. We will also discover another way of writing actions which is Composite Actions.
 ### Section 7
 In section 5 we will finally use our knowledge to create a real-world CI/CD example. In this section we are going to use an Amazon service called Elastic Beanstalk to deploy our app. We are going to use feature flags to continuously integrate and deploy our app without exposing all features to the end user. We are going to automate versioning our app and generating changelogs. In addition to that, we are going to add the option to deploy pull request branches to an isolated AWS environment and also add the option to destroy that environment. We are finally going to see how to use OpenID Connect to access AWS from our workflows without having to store any credentials.
-
-## What you'll learn
-
-- Learn about writing serialized data in the YAML format.
-- Learn about all the GitHub Actions concepts (Workflows, Steps, Jobs, Actions, etc..)
-- Discover everything you can do in a GitHub workflow (events, schedules, filtering, environment variables, context, encryption, matrix and more)
-- Learn how docker can be used in a GitHub workflow
-- Create a real-life CI/CD workflow for code testing, formatting, versioning and more.
-- Use caching in workflows for an improved performance.
-- Learn about uploading artifacts in workflows.
-- Learn about how to create your own custom GitHub Actions using Javascript or Docker
-- Create an action for opening GitHub issues using JavaScript.
-- Create an action for sending slack messages using PHP.
-- Learn how to publish GitHub actions in the GitHub marketplace.
