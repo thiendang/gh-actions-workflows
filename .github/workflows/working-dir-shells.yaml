@@ -12,13 +12,13 @@ jobs:
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
-  display-wd-info-WINDOWS:
+  display-wd-info-windows:
     runs-on: windows-latest
     steps:
       - name: Display Working Directory and List Files
         run: |
-          pwd
-          ls -a
+          Get-Location
+          dir
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
